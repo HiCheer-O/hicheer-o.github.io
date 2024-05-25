@@ -22,7 +22,7 @@ export default defineUserConfig({
 		// 作者信息
 		avatar: {
 			// 头像
-			url: 'https://hicheer-o.github.io/assets/avatar.png',
+			url: 'https://coupon.heke100.com/hk-data/2024/05/25/c413911d6b8d4689a09edd3b7cd5626e.png',
 			// 昵称
 			name: 'HiCheer',
 			// 描述
