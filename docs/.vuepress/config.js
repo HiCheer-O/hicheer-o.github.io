@@ -56,35 +56,50 @@ export default defineUserConfig({
 					{ text: '博客', link: '/blog/', icon: 'material-symbols:article-outline' },
 					{
 						text: '笔记',
-						icon: 'mdi:idea',
+						icon: 'emojione-v1:note-pad',
 						items: [
 							{
-								text: 'JAVA',
-								icon: 'icon-park-solid:theme',
+								text: '心得感悟',
+								icon: 'emojione:thinking-face',
 								items: [
 									{
-										text: 'java 基础',
-										link: '/java/',
-										icon: 'mdi:paper-airplane',
+										text: '生活',
+										link: '/live/',
+										icon: 'arcticons:smart-life',
+									},
+									{
+										text: '读书',
+										link: '/book/',
+										icon: 'material-symbols-light:book-outline',
+									},
+									{
+										text: '观影',
+										link: '/movie/',
+										icon: 'ri:movie-2-line',
 									},
 								],
 							},
 							{
-								text: 'JS',
-								icon: 'mingcute:plugin-2-fill',
+								text: '经历',
+								icon: 'arcticons:pixel-experience',
 								items: [
 									{
-										text: 'JS 基础',
-										link: '/nodes/js/',
-										icon: 'pajamas:feature-flag',
+										text: '工作',
+										link: '/experience/work/',
+										icon: 'healthicons:military-worker-outline',
 									},
 									{
-										text: 'JS 进阶',
-										link: '/nodes/js/',
-										icon: 'material-symbols:move-selection-down-rounded',
-									}
+										text: '大学',
+										link: '/experience/university/',
+										icon: 'mdi:university-outline',
+									},
+									{
+										text: '高中',
+										link: '/experience/high-school/',
+										icon: 'mingcute:school-line',
+									},
 								],
-							},
+							}
 						],
 					},
 				],
@@ -93,37 +108,66 @@ export default defineUserConfig({
 					link: '/',
 					notes: [
 						{
-							text: 'JAVA基础',
-							link: '/java/',
-							dir:  '/java/',
+							text: '生活',
+							link: '/live/',
+							dir: '/live/',
 							sidebar: [
 								{
-									text: '数据结构',
-									link: '/java/data-structure/',
-									dir:  '/java/data-structure/',
+									text: '生活',
+									link: '/live/',
+									dir: '/live/',
 									collapsed: true,
 									items: [
 										{
-											text: '数据结构_01',
-											link: '/java/data-structure_01/',
-											dir:  '/java/data-structure_01/',
+											text: '2024年的炎炎夏热',
+											link: '/live/live-001/',
+											dir: '/live/live-001/',
 											items: []
-										},
-										{
-											text: '数据结构_02',
-											link: '/java/data-structure_02/',
-											dir:  '/java/data-structure_03/',
-											items: []
-										},
+										}
 									]
-								},
+								}
+							]
+						},
+						{
+							text: '读书',
+							link: '/book/',
+							dir: '/book/',
+							sidebar: [
 								{
-									text: 'JVM',
-									link: '/java/jvm/',
-									dir:  '/java/jvm/',
+									text: '读书',
+									link: '/book/',
+									dir: '/book/',
 									collapsed: true,
-									items: []
-								},
+									items: [
+										{
+											text: '钢铁是怎么炼成的',
+											link: '/book/book-001/',
+											dir:  '/book/book-001/',
+											items: []
+										}
+									]
+								}
+							]
+						},
+						{
+							text: '观影',
+							link: '/movie/',
+							dir: '/movie/',
+							sidebar: [
+								{
+									text: '观影',
+									link: '/movie/',
+									dir: '/movie/',
+									collapsed: true,
+									items: [
+										{
+											text: '泰坦尼克号',
+											link: '/movie/movie-001/',
+											dir:  '/movie/movie-001/',
+											items: []
+										}
+									]
+								}
 							]
 						},
 					]
@@ -135,22 +179,127 @@ export default defineUserConfig({
 					{ text: 'Blog', link: '/en/blog/', icon: 'material-symbols:article-outline' },
 					{
 						text: 'notes',
-						// link: '/en/notes/',
-						icon: 'material-symbols:article-outline',
+						icon: 'emojione-v1:note-pad',
 						items: [
 							{
-								text: 'vuepress-theme-plume',
-								link: '/vuepress-theme-plume/notes/java',
-								icon: 'mdi:paper-airplane',
+								text: 'Experience',
+								icon: 'emojione:thinking-face',
+								items: [
+									{
+										text: 'Live',
+										link: '/en/live/',
+										icon: 'arcticons:smart-life',
+									},
+									{
+										text: 'Book',
+										link: '/en/book/',
+										icon: 'material-symbols-light:book-outline',
+									},
+									{
+										text: 'Movie',
+										link: '/en/movie/',
+										icon: 'ri:movie-2-line',
+									},
+								],
 							},
+							{
+								text: 'Experience',
+								icon: 'arcticons:pixel-experience',
+								items: [
+									{
+										text: 'Work',
+										link: '/en/experience/work/',
+										icon: 'healthicons:military-worker-outline',
+									},
+									{
+										text: 'University',
+										link: '/en/experience/university/',
+										icon: 'mdi:university-outline',
+									},
+									{
+										text: 'High-School',
+										link: '/en/experience/high-school/',
+										icon: 'mingcute:school-line',
+									},
+								],
+							}
 						]
 					},
-				]
+				],
+				notes: {
+					dir: '/en/notes',
+					link: '/en',
+					notes: [
+						{
+							text: 'Live',
+							link: '/live/',
+							dir: '/live/',
+							sidebar: [
+								{
+									text: 'Live',
+									link: '/en/live/',
+									dir: '/live/',
+									collapsed: true,
+									items: [
+										{
+											text: 'The scorching summer heat of 2024',
+											link: '/en/live/live-001/',
+											dir: '/live/live-001/',
+											items: []
+										}
+									]
+								}
+							]
+						},
+						{
+							text: 'Book',
+							link: '/book/',
+							dir: '/book/',
+							sidebar: [
+								{
+									text: 'Book',
+									link: '/en/book/',
+									dir: '/book/',
+									collapsed: true,
+									items: [
+										{
+											text: 'How is steel made?',
+											link: '/en/book/book-001/',
+											dir:  '/book/book-001/',
+											items: []
+										}
+									]
+								}
+							]
+						},
+						{
+							text: 'Movie',
+							link: '/movie/',
+							dir: '/movie/',
+							sidebar: [
+								{
+									text: 'Movie',
+									link: '/en/movie/',
+									dir: '/movie/',
+									collapsed: true,
+									items: [
+										{
+											text: 'Titanic',
+											link: '/en/movie/movie-001/',
+											dir:  '/movie/movie-001/',
+											items: []
+										}
+									]
+								}
+							]
+						},
+					]
+				},
 			}
 		},
 		// 链接是否激活
 		// activeMatch: '^/(blog|article|notes)/',
-		footer: { message: 'MIT', copyright: "页脚配置" },
+		footer: { message: '@All, may there be no war in the world.', copyright: '' },
 		// 404 页面
 		notFound: {
 			code: '404',

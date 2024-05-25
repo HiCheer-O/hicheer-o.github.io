@@ -1,0 +1,8 @@
+---
+title: 泰坦尼克号
+author: HiCheer
+createTime: 2024/05/25 18:22:49
+permalink: /movie/movie-001/
+---
+### 泰坦尼克号 
+You jump I jump.
