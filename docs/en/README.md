@@ -4,7 +4,7 @@ config:
   -
     type: banner
     full: true
-    banner: https://w.wallhaven.cc/full/9d/wallhaven-9dwwld.jpg
+    banner: https://hicheer-o.github.io/assets/banner.png
     bannerMask:
       light: 0.1
       dark: 0.3

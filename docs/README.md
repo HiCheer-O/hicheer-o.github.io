@@ -4,7 +4,7 @@ config:
   -
     type: banner
     full: true
-    banner: https://w.wallhaven.cc/full/jx/wallhaven-jxjyzm.png
+    banner: https://hicheer-o.github.io/assets/banner.png
     bannerMask:
       light: 0.1
       dark: 0.3
