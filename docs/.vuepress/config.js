@@ -22,7 +22,7 @@ export default defineUserConfig({
 		// 作者信息
 		avatar: {
 			// 头像
-			url: 'https://w.wallhaven.cc/full/9d/wallhaven-9dwwld.jpg',
+			url: 'https://hicheer-o.github.io/assets/avatar.png',
 			// 昵称
 			name: 'HiCheer',
 			// 描述
