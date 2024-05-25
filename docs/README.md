@@ -21,10 +21,6 @@ config:
           text: Github
           link: https://github.com/HiCheer-O
           theme: alt
-title: 生活
-author: HiCheer
-createTime: 2024/05/25 18:28:10
-permalink: /life/
 ---
 啊还是科技大厦卡激活的夸奖
 <!-- more -->
