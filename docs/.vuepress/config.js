@@ -34,7 +34,7 @@ export default defineUserConfig({
 			{ icon: 'github', link: 'https://github.com/HiCheer-O' },
 			// { icon: 'x', link: 'https://github.com/HiCheer-O' }
 		],
-		// 限制导航栏中显示个人社交配置
+		// 限制导航栏中显示个人社交配 置
 		navbarSocialInclude: ['github'],
 		// 博客设置
 		blog: {
