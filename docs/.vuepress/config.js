@@ -65,7 +65,7 @@ export default defineUserConfig({
 									{
 										text: '生活',
 										link: '/live/',
-										icon: 'arcticons:smart-life',
+										icon: 'game-icons:life-in-the-balance',
 									},
 									{
 										text: '读书',
@@ -188,7 +188,7 @@ export default defineUserConfig({
 									{
 										text: 'Live',
 										link: '/en/live/',
-										icon: 'arcticons:smart-life',
+										icon: 'game-icons:life-in-the-balance',
 									},
 									{
 										text: 'Book',
