@@ -310,11 +310,12 @@ export default defineUserConfig({
 		},
 		// 水印
 		watermark: {
-			global: true,
+			global: false,
+			onlyPrint: true,
 			content: 'HiCheer',
-			fullPage: true,
+			fullPage: false,
 			textColor: {dark: '#ffffff', light: '#111113'},
-			onlyPrint: true
+
 		},
 
 	}),

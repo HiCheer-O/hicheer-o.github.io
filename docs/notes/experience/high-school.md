@@ -3,6 +3,7 @@ title: 高中
 author: HiCheer
 createTime: 2024/05/25 20:30:40
 permalink: /experience/high-school/
+watermark: true
 ---
 
 ### 唯一仅存记忆
