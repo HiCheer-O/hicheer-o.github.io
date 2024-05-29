@@ -28,3 +28,8 @@ watermark: true
 
 其实，说实话我不认为这样的学历不一定有多大的含金量。但是必然是中国认可的学历，也是企业过滤人员的最直观的手段。毕竟大家都是普通人，是吧。
 
+#### 任务状态
+
+<input type="checkbox"> <span style="color: #33dc54;">函授大专</span>
+
+<input type="checkbox"> <span style="color: #33dc54;">自考本科</span>
