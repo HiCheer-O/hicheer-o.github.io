@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "flowchart.ts": "^3.0.0",
-    "mermaid": "^10.9.1"
+    "mermaid": "^10.9.1",
+    "vuepress-plugin-md-power": "1.0.0-rc.68"
   }
 }

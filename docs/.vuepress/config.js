@@ -19,6 +19,9 @@ export default defineUserConfig({
 				mermaid: true,
 				flowchart: true,
 			},
+			markdownPower: {
+				pdf: true,
+			},
 		},
 		// 导航栏左边的 logo，logo浅色时，logoDark深色时
 		// logo: '',
@@ -62,6 +65,7 @@ export default defineUserConfig({
 				navbar: [
 					{ text: '首页', link: '/', icon: 'material-symbols:home-outline' },
 					{ text: '博客', link: '/blog/', icon: 'material-symbols:article-outline' },
+					{ text: '简历', link: '/user/resume/', icon: 'mdi:resume' },
 					{
 						text: '笔记',
 						icon: 'emojione-v1:note-pad',
@@ -185,6 +189,7 @@ export default defineUserConfig({
 				navbar: [
 					{ text: 'Home', link: '/en/', icon: 'material-symbols:home-outline' },
 					{ text: 'Blog', link: '/en/blog/', icon: 'material-symbols:article-outline' },
+					{ text: 'Resume', link: '/en/user/resume/', icon: 'mdi:resume' },
 					{
 						text: 'notes',
 						icon: 'emojione-v1:note-pad',
