@@ -22,6 +22,9 @@ export default defineUserConfig({
 			markdownPower: {
 				pdf: true,
 			},
+			search: {
+				page: true
+			}
 		},
 		// 导航栏左边的 logo，logo浅色时，logoDark深色时
 		// logo: '',
