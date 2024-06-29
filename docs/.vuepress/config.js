@@ -56,9 +56,9 @@ export default defineUserConfig({
 				perPage: 5
 			},
 			// 是否启用标签页
-			tags: false,
+			tags: true,
 			// 是否启用归档页
-			archives: false
+			archives: true
 		},
 		// 文章链接前缀
 		article: '/article/',
